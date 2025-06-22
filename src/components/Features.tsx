@@ -3,29 +3,30 @@ import Icon from "@/components/ui/icon";
 const Features = () => {
   const features = [
     {
-      icon: "GraduationCap",
-      title: "Интеграция с LMS",
+      icon: "BarChart3",
+      title: "Анализ успеваемости",
       description:
-        "Подключение к Moodle, Canvas, Blackboard и другим учебным порталам",
+        "Глубокий анализ результатов экзаменов и тестов с выявлением сильных и слабых сторон",
       color: "from-purple-500 to-indigo-500",
     },
     {
-      icon: "FileText",
-      title: "Поддержка форматов",
-      description: "PDF, DOCX, TXT файлы и веб-ссылки — всё в одном месте",
+      icon: "TrendingUp",
+      title: "Прогнозирование оценок",
+      description:
+        "AI-алгоритмы предсказывают будущие результаты и дают рекомендации",
       color: "from-blue-500 to-cyan-500",
     },
     {
-      icon: "Tags",
-      title: "Система тегов",
-      description: "Организация по предметам, темам и уровню сложности",
+      icon: "AlertTriangle",
+      title: "Оценка рисков",
+      description: "Раннее выявление студентов с риском низкой успеваемости",
       color: "from-indigo-500 to-purple-500",
     },
     {
-      icon: "Users",
-      title: "Совместная работа",
+      icon: "PieChart",
+      title: "Визуализация прогресса",
       description:
-        "Обмен конспектами с одногруппниками и получение обратной связи от преподавателей",
+        "Интерактивные графики и диаграммы для отслеживания академических достижений",
       color: "from-cyan-500 to-blue-500",
     },
   ];
@@ -35,10 +36,11 @@ const Features = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Возможности StudyAI
+            Возможности StudyPredict
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Всё необходимое для эффективного обучения в одном приложении
+            Мощные инструменты для анализа и прогнозирования академической
+            успеваемости
           </p>
         </div>
 
